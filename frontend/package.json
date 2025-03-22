@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "live-server --port=3000 --entry-file=/src/index.html --verbose",
+    "start": "live-server src --port=3000 --verbose",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
