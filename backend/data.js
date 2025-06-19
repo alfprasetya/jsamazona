@@ -89,5 +89,5 @@ const data = {
         //     countInStock: 10,
         // }
     ]
-}
+};
 export default data;

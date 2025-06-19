@@ -89,4 +89,4 @@ export default {
         //     countInStock: 10,
         // }
     ]
-}
+};

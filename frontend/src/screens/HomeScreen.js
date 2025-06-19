@@ -1,4 +1,3 @@
-import data from '../data.js';
 import axios from "axios";
 
 const HomeScreen = {
@@ -38,8 +37,8 @@ const HomeScreen = {
                 </div>
             </li>
             `).join('\n')}
-        `
+        `;
     }
-}
+};
 
 export default HomeScreen;

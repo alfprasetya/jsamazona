@@ -5,6 +5,6 @@ const ProductScreen = {
         const { id } = parseRequestUrl();
         return `<div> Product Screen ${id} </div>`;
     }
-}
+};
 
 export default ProductScreen;

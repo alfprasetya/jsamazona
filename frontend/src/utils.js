@@ -5,5 +5,5 @@ export const parseRequestUrl = () => {
         resource: request[1],
         id: request[2],
         action: request[3],
-    }
-}
+    };
+};
