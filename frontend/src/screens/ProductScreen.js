@@ -1,9 +1,16 @@
+import { getProducts } from '../api.js';
 import { parseRequestUrl } from '../utils.js';
 
 const ProductScreen = {
-    render: () => {
+    render: async () => {
         const { id } = parseRequestUrl();
-        return `<div> Product Screen ${id} </div>`;
+        const product = await getProducts(id);
+
+        if (product.error) {
+            return `<div>${product.error}<\div>`;
+        }
+        
+        return `<div> ${product.name} </div>`;
     }
 };
 
