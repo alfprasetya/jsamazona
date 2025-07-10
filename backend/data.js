@@ -53,7 +53,7 @@ const data = {
             brand: 'Sanskrit',
             rating: 3.3,
             numReviews: 16,
-            countInStock: 9,
+            countInStock: 0,
         },
         {
             _id: '6',
