@@ -1,7 +1,7 @@
 const Rating = {
     after_render: () => {},
     render: (props) => {
-        console.log('Rating props:', props);
+        // console.log('Rating props:', props);
 
         if (!props.value) {
             return `<div></div>`;
