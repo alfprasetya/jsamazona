@@ -6,8 +6,8 @@ const ProductScreen = {
     after_render: () => {
         const request = parseRequestUrl();
         document.getElementById('add-button').addEventListener('click', () => {
-            document.location.hash = `/cart/${request.id}`
-        })
+            document.location.hash = `/cart/${request.id}`;
+        });
     },
     render: async () => {
         const { id } = parseRequestUrl();
